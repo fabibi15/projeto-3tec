@@ -10,4 +10,4 @@ def fizzbuzz(num:int):
         return 'fizzbuz'
     #Retorna o número se num não for divisivel por 3
     else:
-     return num
+        return num
