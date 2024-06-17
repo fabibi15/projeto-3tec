@@ -1,10 +1,44 @@
 :root{
-    --color-text: #fff0f3;
-    --color-backgroud: #220901;
+    --color-text: #000000;
+    --color-backgroud: #fff;
 
 }
 
 body {
 background: var(--color-backgroud);
 color: var(--color-text);
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0%;
+
+}
+
+.header-logo {
+    height: 150px;
+}
+
+.info {
+    text-align: center;
+}
+
+.item-container{
+   display: flex;
+   flex-direction: row; 
+   justify-content: center;
+   margin: 2rem 0 0 0 ;
+}
+
+.item-container-subitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    border-width: 2px;
+    border-style:solid ;
+    border-radius: 10px;
+    border-color: var(--color-text);
 }
